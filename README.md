@@ -15,4 +15,4 @@ Danach erscheint **GIS-NB Check** unter *Alle* und Updates werden unter *Aktuali
 
 | Plugin | Version |
 |---|---|
-| GIS-NB Check | 1.1.4 |
+| GIS-NB Check | 1.2.0 |
