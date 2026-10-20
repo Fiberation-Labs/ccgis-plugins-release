@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <plugins>
-  <pyqgis_plugin name="GIS-NB Check" version="1.2.0">
+  <pyqgis_plugin name="GIS-NB Check" version="1.2.1">
     <description>Prueft GIS-NB 3.1/4.0/4.1 Netzplan-Layer auf typische Fehler und gleicht Leerrohr-Reserven mit Kabeln je Streckenabschnitt ab</description>
     <about>Dock-Panel und Processing-Algorithmus fuer die Qualitaetskontrolle von GIS-NB Netzplaenen (Leitfaden Bearbeitung CCGIS, Telekom-Interpretation). Projektauswahl nach GIS-NB Vertragsnummer (Layergruppe), GIS-NB 3.1 mit den Pruefungen des frueheren GIS-NB Validators. Prueft Netztechnik, Verbindungen, Leerrohre und Trassenbau auf Attribut-Codes, Reserven, Laengen, Aussenrohre bei SNR 10/8, Rohrenden, Kabelenden, ID-Hierarchien und Trassenbau ueber Bestand. Zusaetzlich Reserven-Abgleich je Streckenabschnitt unter Trassenbau: belegte Neubaurohre laut LR_Reserv gegen Anzahl Neubaukabel, nur Abweichungen. Die Geometrie-Lage wird nicht geprueft, Lage-Vergleiche zwischen den Layern sind exakt.</about>
-    <version>1.2.0</version>
+    <version>1.2.1</version>
     <qgis_minimum_version>3.16</qgis_minimum_version>
     <qgis_maximum_version>3.99</qgis_maximum_version>
     <homepage>https://github.com/Fiberation-Labs/fiberation-ccgis-plugins</homepage>
-    <file_name>gisnb_check.1.2.0.zip</file_name>
+    <file_name>gisnb_check.1.2.1.zip</file_name>
     <icon>https://raw.githubusercontent.com/Fiberation-Labs/ccgis-plugins-release/main/gisnb_check.png</icon>
     <author_name>fiberation GmbH</author_name>
-    <download_url>https://raw.githubusercontent.com/Fiberation-Labs/ccgis-plugins-release/main/gisnb_check.1.2.0.zip</download_url>
+    <download_url>https://raw.githubusercontent.com/Fiberation-Labs/ccgis-plugins-release/main/gisnb_check.1.2.1.zip</download_url>
     <update_date>2026-10-20</update_date>
     <experimental>False</experimental>
     <deprecated>False</deprecated>
